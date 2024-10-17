@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header div{
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #F1FCFF;
+    height: 100px;
+    position: relative;
+    display: flex;
+}
+
+.header_container { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    
+  } 
+
+.logo{
+    
+    margin-left: 10px;
+    scale: 0.9;
+    margin-right: 40px;
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_elements ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    padding: 100px;
+    margin-right: 400px;
+}
+
+.header_elements ul a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.65;
+    transition:all .09s ease-in-out;
+}
+
+.header_elements ul a:hover{
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.submit_leasing_button button{
+    display: flex;
+    justify-content: center; 
+    width: 100px;
+    padding-left: 10px;
+    border-radius: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.selected_cars{
+    justify-content: center;
+    display: flex;
+}
+
