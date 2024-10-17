@@ -7,7 +7,7 @@ header div{
     align-items: center;
     width: 100%;
     height: 90px;
-    background-color: #F1FCFF;
+    background-color: #ffffff;
     height: 100px;
     position: relative;
     display: flex;
@@ -18,7 +18,6 @@ header div{
     justify-content: space-between; 
     align-items: center; 
     width: 100%;
-    
   } 
 
 .logo{
@@ -31,6 +30,13 @@ header div{
 .number{
     display: flex;
     justify-content: space-between;
+    margin-right: 50px;
+}
+
+.number p{
+    align-items: center;
+    width: 150px;
+    padding-left: 5px;
 }
 
 .header_elements ul{
@@ -70,3 +76,42 @@ header div{
     display: flex;
 }
 
+
+
+.selected_cars ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #ffffff;
+}
+
+.selected_cars ul a{
+    text-decoration: none;
+}
+
+.main_page p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 115px;
+}
+
+.main_page h1{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.background_image{
+    text-align: center;
+}
+
+.background_image img{
+    width: 1100px;
+}
+
+main{
+    background-color: #EEF1FB;
+    
+}
