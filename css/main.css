@@ -69,7 +69,26 @@ header div{
     border-radius: 100%;
     align-items: center;
     padding: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #ffffff;
+    outline: 0 !important;
+    border: 2px;
 }
+
+.submit_leasing_button button a{
+    color: black;
+    text-decoration: none;
+}
+
+.submit_leasing_button button:hover{
+    color: white;
+    background-color: black;
+}
+
 
 .selected_cars{
     justify-content: center;
@@ -84,6 +103,8 @@ header div{
     justify-content: space-between;
     gap: 30px;
     background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 100px;
 }
 
 .selected_cars ul a{
@@ -109,9 +130,55 @@ header div{
 
 .background_image img{
     width: 1100px;
+    padding-right: 235px;
+    overflow: hidden;
 }
 
 main{
     background-color: #EEF1FB;
-    
+}
+
+.type_of_car h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.type_of_car ul{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.type_of_car ul li{
+    background-color: azure;
+    list-style: none;
+    padding: 52px 26px;
+    border-radius: 16px;
+    color: black;
+}
+
+.type_of_car ul li a{
+    text-decoration: none;
+
+}
+
+.type_of_car{
+    padding-bottom: 100px;
+}
+
+.content1{
+    background-color: #E9F2FF;
+    flex-direction: left;
+}
+
+.content2{
+    background-color: #FFE9F3;
+}
+
+.sales_content{
+    padding-bottom: 115px;
+
 }
