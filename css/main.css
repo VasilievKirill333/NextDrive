@@ -9,7 +9,7 @@ header div{
     height: 90px;
     background-color: #ffffff;
     height: 100px;
-    position: relative;
+    position: reltive;
     display: flex;
 }
 
@@ -82,11 +82,14 @@ header div{
 .submit_leasing_button button a{
     color: black;
     text-decoration: none;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .submit_leasing_button button:hover{
     color: white;
-    background-color: black;
+    background-color: azure;
 }
 
 
@@ -105,6 +108,8 @@ header div{
     background-color: #ffffff;
     padding: 15px;
     margin-bottom: 100px;
+    border: solid 1px;
+    border-radius: 15px;
 }
 
 .selected_cars ul a{
@@ -153,16 +158,19 @@ main{
 }
 
 .type_of_car ul li{
-    background-color: azure;
     list-style: none;
     padding: 52px 26px;
     border-radius: 16px;
     color: black;
+    border: solid 1px;
+    width: 100px;
+    text-align: center;
+
 }
 
 .type_of_car ul li a{
     text-decoration: none;
-
+    color: black;
 }
 
 .type_of_car{
@@ -171,14 +179,78 @@ main{
 
 .content1{
     background-color: #E9F2FF;
-    flex-direction: left;
+    flex-direction: row;
 }
 
 .content2{
     background-color: #FFE9F3;
+    flex-direction: row;
 }
 
 .sales_content{
     padding-bottom: 115px;
 
+}
+
+.view details p img{
+    background-color: black;
+}
+
+.sales_content{
+    display: flex;
+    justify-content: center;
+}
+
+.sales_content 
+
+.content1{
+    box-sizing: border-box;
+    margin-right: 50px;
+    border-radius: 16px;
+    width: 685px;
+    height: 400px;
+}
+
+.content1 h2{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 150px;
+    margin-bottom: 15px;
+}
+
+
+.content1 p{
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.content1 button{
+    margin-left: 80px;
+    padding: 25px 15px;
+}
+
+.get_started_blue{
+    border-radius: 16px;
+    border: solid 1px;
+}
+
+.get_started_roze{
+    border-radius: 16px;
+    border: solid 1px;
+    margin-left: 80px;
+    padding: 25px 15px;
+}
+
+.content2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 685px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+.content2 p{
+    margin-left: 80px;
+    margin-bottom: 15px;
 }
